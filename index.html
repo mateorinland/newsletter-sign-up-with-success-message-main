@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Frontend Mentor challenge for web development. This one is a sign-up
+      form for a newsletter with success message screen."
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="initial-state">
+        <div class="image-container">
+          <img
+            class="head-image"
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="A schematic image previewing the type of content this site provides: information, chart graphs, quantitative data."
+          />
+        </div>
+        <div class="info-container">
+          <div class="blurb-container">
+            <h1 class="title">Stay updated!</h1>
+            <p class="text">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="list">
+              <li class="item">
+                <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+                <p class="item-text">Product discovery and building what matters</p>
+              </li>
+              <li class="item">
+                <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+                <p class="item-text"></p>Measuring to ensure updates are a success</p>
+              </li>
+              <li class="item">
+                <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+                <p class="item-text"></p>And much more!</p>
+              </li>
+            </ul>
+          </div>
+          <div class="form-container">
+            <form action="" class="form" aria-labelledby="form-legend">
+              <fieldset class="fieldset">
+                <legend id="form-legend" class="visually-hidden">Please enter your email address to sign-up for newsletter:</legend>
+                <div class="form-group">
+                  <label for="email-input" class="email-label">Email address</label>
+                  <p class="error-msg" id="email-error-msg"></p>
+                  <input class="email-input" id="email-input" type="email" placeholder="email@company.com">
+                </div>
+                <button class="btn" type="submit">Subscribe to monthly newsletter</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="completed-state visually-hidden">
+        <svg class="success-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg>
+        <p class="success-title">Thanks for subscribing!</p>
+        <p class="success-text">A confirmation email has been sent to
+          ash@loremcompany.com. Please open it and click the button inside to confirm
+          your subscription.</p>
+        <button>Dismiss message</button>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Coded by
+        <a
+          class="attribution-link"
+          href="https://www.linkedin.com/in/mateo-rinland-9b1a93bb/"
+          aria-label="Mateo Rinland's LinkedIn profile"
+          >Mateo Rinland</a
+        >. Challenge by
+        <a
+          class="attribution-link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

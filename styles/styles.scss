@@ -1,0 +1,29 @@
+@import "reset";
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-icon, .item-text {
+  display: inline;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution-link {
+  color: hsl(228, 45%, 44%);
+}
+
